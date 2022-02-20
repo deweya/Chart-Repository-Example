@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: v5
+    created: "2022-02-20T04:13:36.052015-05:00"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.x
+    description: An application used for keeping a running record of guests
+    digest: 983dee22d05be37fb73cf6a06fa5a2b2c320c1678ad6a8df3d198a403f467343
+    name: guestbook
+    type: application
+    urls:
+    - guestbook-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-20T04:13:36.045492-05:00"
